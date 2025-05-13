@@ -1,0 +1,75 @@
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+}
+
+
+h2, h3, h4 {
+  text-align: center;
+  color: #333;
+}
+
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+input[type="text"],
+input[type="date"] {
+  display: block;
+  width: 97%;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+
+.expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.expense-list li:hover {
+  background-color: #f1f1f1;
+}
+
+
+.expense-details, .edit-form {
+  margin-top: 20px;
+  border: 1px solid gray;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
